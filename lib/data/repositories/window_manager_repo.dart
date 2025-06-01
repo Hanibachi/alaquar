@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:alaquar/data/models/window.dart';
 import 'package:alaquar/data/repositories/config_repo.dart';
-import 'package:alaquar/data/utilities/enums/window_type.dart';
+import 'package:alaquar/utilities/enums/window_type.dart';
 import 'package:fl_linux_window_manager/models/layer.dart';
 import 'package:kiwi/kiwi.dart';
 import 'package:screen_retriever/screen_retriever.dart';

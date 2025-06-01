@@ -1,11 +1,11 @@
 import 'dart:developer';
-import 'package:alaquar/data/app/app.dart';
+import 'package:alaquar/app/app.dart';
 import 'package:alaquar/data/models/window.dart';
 import 'package:alaquar/data/repositories/config_repo.dart';
 import 'package:alaquar/data/repositories/requests_processor_repo.dart';
 import 'package:alaquar/data/repositories/window_manager_repo.dart';
 import 'package:alaquar/data/services/server_service.dart';
-import 'package:alaquar/data/utilities/enums/window_type.dart';
+import 'package:alaquar/utilities/enums/window_type.dart';
 import 'package:flutter/widgets.dart';
 import 'package:kiwi/kiwi.dart';
 

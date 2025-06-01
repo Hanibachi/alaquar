@@ -1,4 +1,4 @@
-import 'package:alaquar/data/utilities/enums/window_type.dart';
+import 'package:alaquar/utilities/enums/window_type.dart';
 import 'package:dart_mappable/dart_mappable.dart';
 import 'package:fl_linux_window_manager/fl_linux_window_manager.dart';
 import 'package:fl_linux_window_manager/models/layer.dart';

@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:developer';
 import 'dart:io';
 
-import 'package:alaquar/data/utilities/config_schema.dart';
+import 'package:alaquar/utilities/config_schema.dart';
 import 'package:flutter/services.dart';
 import 'package:json_schema/json_schema.dart';
 import 'package:xdg_directories/xdg_directories.dart';

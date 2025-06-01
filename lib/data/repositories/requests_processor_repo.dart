@@ -4,7 +4,7 @@ import 'dart:io';
 import 'package:alaquar/data/models/command.dart';
 import 'package:alaquar/data/repositories/window_manager_repo.dart';
 import 'package:alaquar/data/services/server_service.dart';
-import 'package:alaquar/data/utilities/enums/order.dart';
+import 'package:alaquar/utilities/enums/order.dart';
 import 'package:kiwi/kiwi.dart';
 
 class RequestsProcessorRepo {

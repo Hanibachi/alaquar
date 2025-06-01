@@ -2,8 +2,8 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:alaquar/data/models/window.dart';
-import 'package:alaquar/data/utilities/extensions/color_from_hex_extension.dart';
-import 'package:alaquar/data/utilities/extensions/file_system_entity_from_path_extension.dart';
+import 'package:alaquar/utilities/extensions/color_from_hex_extension.dart';
+import 'package:alaquar/utilities/extensions/file_system_entity_from_path_extension.dart';
 import 'package:dartx/dartx_io.dart';
 import 'package:flutter/widgets.dart';
 

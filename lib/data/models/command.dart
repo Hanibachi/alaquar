@@ -1,5 +1,5 @@
-import 'package:alaquar/data/utilities/enums/command_arguments.dart';
-import 'package:alaquar/data/utilities/enums/order.dart';
+import 'package:alaquar/utilities/enums/command_arguments.dart';
+import 'package:alaquar/utilities/enums/order.dart';
 import 'package:dart_mappable/dart_mappable.dart';
 part 'command.mapper.dart';
 

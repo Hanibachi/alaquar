@@ -1,5 +1,5 @@
 import 'package:alaquar/data/models/window.dart';
-import 'package:alaquar/data/utilities/enums/window_type.dart';
+import 'package:alaquar/utilities/enums/window_type.dart';
 import 'package:alaquar/presentation/background/view.dart';
 import 'package:alaquar/presentation/background/view_model.dart';
 import 'package:flutter/material.dart';
