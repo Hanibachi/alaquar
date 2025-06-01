@@ -45,7 +45,7 @@ class BackgroundViewModel {
     final directory = (monitorConfig["slides"] as String?)?.toDirectory();
     if (directory?.existsSync() ?? false) {
       return directory!
-          .listSync(recursive: monitorConfig["recursive"])
+          .listSync(recursive: monitorConfig["recursive"] ?? false)
           .where(
             (entity) =>
                 (entity is File) &&

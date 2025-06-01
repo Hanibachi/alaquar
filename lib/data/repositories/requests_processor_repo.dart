@@ -39,7 +39,7 @@ class RequestsProcessorRepo {
             // case for receiving an close ccommand
             case Order.close:
               // close all windows
-              await _kiwi.resolve<WindowManagerRepo>().closeAllWindows();
+              await _kiwi.resolve<WindowManagerRepo>("windowManagerRepo").closeAllWindows();
               // exit the app
               exit(0);
             // case for receiving a command that isnt accounted for
